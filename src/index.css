@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Georama:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Define the variable font */
+@font-face {
+  font-family: 'Georama';
+  src: url('../public/Fonts/Georama/Georama-VariableFont_wdth\,wght.ttf') format('truetype');
+  font-weight: 100 900; 
+  font-stretch: 50% 200%; 
+}
+
+/* Define a static font as fallback */
+@font-face {
+  font-family: 'Georama';
+  src: url('../public/Fonts/Georama/static/Georama-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Georama', sans-serif;
+  font-weight: 400;
+  font-stretch: 100%;
+}
