@@ -8,7 +8,7 @@ export function HeroSection() {
     initial={{ opacity: 0, x: 20 }}
     animate={{ opacity: 1, y: 0 }}
     transition={{ duration: 0.8 }} 
-    className=" text-white mt-8 px-4 bg-[#413cdd] m-2 rounded-[4rem] h-[35rem] relative py-24">
+    className=" text-white mt-20 px-4 bg-[#413cdd] m-2 rounded-[4rem] h-[35rem] relative py-24">
       <div className="grid  gap-8 lg:grid-cols-2">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -16,15 +16,14 @@ export function HeroSection() {
           transition={{ duration: 0.8 }}
           className="flex z-50 absolute inset-8 flex-col  justify-center space-y-4 w-[60%]"
         >
-          <h1 className="md:text-8xl md:text-center text-7xl font-semibold tracking-tighter">
+          <h1 className="md:text-center font-semibold tracking-tighter">
             <motion.span
               initial={{ opacity: 0, x: -20 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.2, duration: 0.8 }}
             >
-              Diagnostic
-              <br />
-              Expert System
+              <span className='text-9xl'>ISHA<br/></span>
+              <span className='text-6xl'>Diagnostic Expert System</span> 
               <span className="text-blue-500">.</span>
             </motion.span>
           </h1>

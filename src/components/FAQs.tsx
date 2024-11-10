@@ -51,7 +51,7 @@ export default function FAQs() {
   ]
 
   return (
-    <div className="w-full max-w-3xl mx-auto p-6 space-y-6">
+    <div className="w-full max-w-3xl mx-auto p-6 space-y-6" id='faqs'>
         <motion.h2
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}

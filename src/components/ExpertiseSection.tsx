@@ -33,10 +33,10 @@ const expertiseAreas = [
 ]
 export function ExpertiseSection() {
   return (
-    <div className="flex justify-center items-center">
+    <div className="flex justify-center items-center" id='features'>
       <section className="container relative  py-24 lg:mx-52">
         {/* Centered Circle */}
-        <div className="absolute overflow-hidden top-1/2 left-1/2 bg-white  z-50  -translate-x-1/2 -translate-y-1/3 h-[36vh] w-[36vh]  rounded-full ">
+        <div className="absolute overflow-hidden top-1/2 left-1/2 bg-white  z-20 -translate-x-1/2 -translate-y-1/3 h-[36vh] w-[36vh]  rounded-full ">
         <Robot/>
         </div>
 

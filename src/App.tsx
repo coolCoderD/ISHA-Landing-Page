@@ -1,11 +1,13 @@
 import React, { Suspense } from 'react';
-import { Header } from './components/Header';
+  import  Header  from './components/Header';
 import { HeroSection } from './components/HeroSection';
 import { MarqueeBanner } from './components/MarqueeBanner';
 import { ExpertiseSection } from './components/ExpertiseSection';
 
 import { Footer } from './components/Footer';
 import FAQs from './components/FAQs';
+
+
 
 function App() {
   return (
